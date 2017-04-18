@@ -1,0 +1,42 @@
+@phuongtt: khi nào build Telegram xong, nhờ Phương nghiên cứu task này nha https://github.com/prdlab/wrappy-desktop/issues/2
+
+
+==========================================
+Wrappy
+
+/home/operations/TBuild/tdesktop/Telegram/SourceFiles/_other/updater_linux.cpp
+strcpy(path, (exeDir + "Telegram").c_str());
+
+/home/operations/TBuild/tdesktop/Telegram/SourceFiles/config.h
+constexpr str_const AppFile = "Telegram";
+
+/home/operations/TBuild/tdesktop/Telegram/SourceFiles/mainwindow.cpp
+
+
+/home/operations/TBuild/tdesktop/Telegram/SourceFiles/platform/linux/main_window_linux.cpp
+
+/home/operations/TBuild/tdesktop/Telegram/SourceFiles/window/main_window.cpp
+
+
+/home/operations/TBuild/tdesktop/Telegram/SourceFiles/window/window_main_menu.cpp
+ko change all, khong change ten bien
+_telegram->setRichText(textcmdLink(1, qsl("Telegram Desktop17")));
+gần version, about (main menu)
+
+
+
+/home/operations/TBuild/tdesktop/Telegram/SourceFiles/intro/introstart.cpp
+
+setTitleText(qsl("Telegram Desktop6"));
+
+màn hình intro start trước khi đăng nhập
+
+
+/home/operations/TBuild/tdesktop/Telegram/Resources/langs/lang.strings
+
+trừ {telegram}
+
+
+============================================
+
+"Are you sure, you want to delete all message history with {contact}?\n\nThis action cannot be undone.";
